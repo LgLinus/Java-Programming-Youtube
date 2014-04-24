@@ -5,11 +5,11 @@ public class Housing {
 	private int rent;
 	private String address;
 	private int rooms;
-	
+
 	public Housing(int rent, String address, int rooms){
-		this.rent = rent;
-		this.address = address;
-		this.rooms = rooms;
+		this.setRent(rent);
+		this.setAddress(address);
+		this.setRooms(rooms);
 	}
 	
 	public int getRent() {

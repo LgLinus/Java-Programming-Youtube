@@ -7,11 +7,10 @@ public class Apartment extends Housing{
 	public Apartment(int rent, String address, int rooms,int sqMeter){
 		super(rent,address,rooms);
 		this.sqMeter = sqMeter;
-		
 	}
 	
 	public String toString(){
-		return "";
+		return super.toString();
 	}
 	
 }
