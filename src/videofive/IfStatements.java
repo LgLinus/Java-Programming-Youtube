@@ -1,5 +1,8 @@
 package videofive;
 
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
 public class IfStatements {
 
 
